@@ -8,9 +8,9 @@ namespace ForGitHub
         public static void Main(string[] args)
         {
             float a = 5.454f;
-            Console.WriteLine(a);
+            Console.WriteLine(a); //5,454
             a = GetShortNumber<float>(a, 2);
-            Console.WriteLine(a);
+            Console.WriteLine(a); //5,45
         }
         
         private static T GetShortNumber<T>(dynamic anyNum, byte n = 0)
